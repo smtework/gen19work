@@ -30,7 +30,6 @@ function loadTasks() {
       });
     });
 
-    // ⭐ เรียงจากวันใกล้สุด → ไกลสุด
     tasks.sort((a, b) => new Date(a.due) - new Date(b.due));
 
     let html = "";
