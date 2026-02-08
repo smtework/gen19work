@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>งาน</title>
+  <title>งาน/สอบ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>งาน</h1>
+<h1>งาน/สอบ</h1>
 
 <input type="text" id="title" placeholder="ชื่องาน">
 <input type="date" id="due">
 <br>
-<button onclick="addTask()">เพิ่มงาน</button>
+<button onclick="addTask()">เพิ่ม</button>
 
-<h2>รายการงาน</h2>
+<h2>รายการ</h2>
 <div id="taskList"></div>
 
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
@@ -39,3 +39,4 @@ const db = firebase.firestore();
 
 </body>
 </html>
+
