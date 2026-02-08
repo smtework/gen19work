@@ -41,3 +41,21 @@ button:hover {
   border-radius: 12px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+}
